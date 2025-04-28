@@ -39,7 +39,7 @@ public class UserRepositoryTest {
     static class TestConfig{
         @Bean
         public UniqueIdGenerator<UUID> generator(){
-            return new InMemoryUniqueIdGenerator;
+            return new InMemoryUniqueIdGenerator();
         }
     }
 }
