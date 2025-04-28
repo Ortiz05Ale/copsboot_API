@@ -1,6 +1,8 @@
 package mx.uv.ale.copsboot.user;
 
 import java.util.UUID;
+import mx.uv.ale.copsboot.jpa.UniqueIdGenerator;
+import mx.uv.ale.copsboot.user.UserRepositoryCustom;
 
 public class UserRepositoryImpl implements UserRepositoryCustom{
     private final UniqueIdGenerator<UUID> generator;
